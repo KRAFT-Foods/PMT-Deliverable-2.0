@@ -45,6 +45,8 @@ public class MenuActivity extends Activity { // This is the main activity
             }
         });  //Products button
 
+
+        /*
         discountsButton = findViewById(R.id.discountsButton);
         discountsButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -52,6 +54,8 @@ public class MenuActivity extends Activity { // This is the main activity
                openDiscounts();
             }
         });  //discounts button
+
+        */
 
 
         bookmarksButton = findViewById(R.id.bookmarksButton);
@@ -77,6 +81,7 @@ public class MenuActivity extends Activity { // This is the main activity
         Intent intent = new Intent(this, WomensActivity.class);
         startActivity(intent);
     }
+
 
 
     private void openDiscounts() {

@@ -41,11 +41,11 @@
 
 
     <Button
-        android:id="@+id/discountsButton"
+        android:id="@+id/bookmarksButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Discounts"
+        android:text="Bookmarks"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/womensButton" />
 
     <Button
-        android:id="@+id/bookmarksButton"
+        android:id="@+id/helpButton"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="193dp"
@@ -65,7 +65,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/discountsButton"
+        app:layout_constraintTop_toBottomOf="@+id/bookmarksButton"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
