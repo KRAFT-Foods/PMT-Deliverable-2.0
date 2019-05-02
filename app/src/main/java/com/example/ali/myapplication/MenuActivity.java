@@ -1,17 +1,13 @@
 package com.example.ali.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
 
-public class MainActivity extends Activity { // This is the main activity
+public class MenuActivity extends Activity { // This is the main activity
 
 
 
@@ -21,19 +17,30 @@ public class MainActivity extends Activity { // This is the main activity
         super.onCreate(savedInstanceState);
      //   requestWindowFeature(Window.FEATURE_NO_TITLE); //NO ACTION BAR
      //   getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu);
 
-        Button productsButton;
+        Button mensButton;
+        Button womensButton;
         Button discountsButton;
         Button bookmarksButton;
 
 
-        productsButton = findViewById(R.id.productsButton);
-        productsButton.setOnClickListener(new View.OnClickListener(){
+        mensButton = findViewById(R.id.mensButton);
+        mensButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
 
-                openProducts();
+                openMens();
+
+            }
+        });  //Products button
+
+        womensButton = findViewById(R.id.womensButton);
+        womensButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
+                openWomens();
 
             }
         });  //Products button
@@ -61,10 +68,16 @@ public class MainActivity extends Activity { // This is the main activity
 
     }
 
-    private void openProducts() {
-        Intent intent = new Intent(this, ProductsActivity.class);
+    private void openMens() {
+        Intent intent = new Intent(this, MensActivity.class);
         startActivity(intent);
     }
+
+    private void openWomens() {
+        Intent intent = new Intent(this, WomensActivity.class);
+        startActivity(intent);
+    }
+
 
     private void openDiscounts() {
         Intent intent = new Intent(this, DiscountsActivity.class);

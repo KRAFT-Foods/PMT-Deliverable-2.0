@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class ProductsActivity extends AppCompatActivity {
+public class MensActivity extends AppCompatActivity {
 
     boolean isEnable=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_products);
+        setContentView(R.layout.activity_mens);
 
         final ImageButton ButtonStar = (ImageButton) findViewById(R.id.favorite_button);
         ButtonStar.setOnClickListener(new View.OnClickListener() {

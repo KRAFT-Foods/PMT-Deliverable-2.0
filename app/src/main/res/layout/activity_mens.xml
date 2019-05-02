@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductsActivity">
+    tools:context=".MensActivity">
 
 
     <android.support.v4.widget.NestedScrollView
@@ -70,7 +70,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="192dp">>
+                    android:layout_height="192dp">
 
 
                 <ImageView
