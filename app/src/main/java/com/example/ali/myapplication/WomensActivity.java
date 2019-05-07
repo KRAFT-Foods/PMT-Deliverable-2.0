@@ -14,8 +14,6 @@ public class WomensActivity extends AppCompatActivity {
     boolean isEnable1=false;
     boolean isEnable2=false;
     boolean isEnable3=false;
-    boolean isEnable4=false;
-    boolean isEnable5=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
