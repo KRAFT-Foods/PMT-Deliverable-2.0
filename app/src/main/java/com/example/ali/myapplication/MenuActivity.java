@@ -21,7 +21,7 @@ public class MenuActivity extends Activity { // This is the main activity
 
         Button mensButton;
         Button womensButton;
-        Button discountsButton;
+        Button helpButton;
         Button bookmarksButton;
 
 
@@ -46,16 +46,15 @@ public class MenuActivity extends Activity { // This is the main activity
         });  //Products button
 
 
-        /*
-        discountsButton = findViewById(R.id.discountsButton);
-        discountsButton.setOnClickListener(new View.OnClickListener(){
+
+        helpButton = findViewById(R.id.helpButton);
+        helpButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-               openDiscounts();
+               openHelp();
             }
-        });  //discounts button
+        });
 
-        */
 
 
         bookmarksButton = findViewById(R.id.bookmarksButton);
@@ -84,8 +83,8 @@ public class MenuActivity extends Activity { // This is the main activity
 
 
 
-    private void openDiscounts() {
-        Intent intent = new Intent(this, DiscountsActivity.class);
+    private void openHelp() {
+        Intent intent = new Intent(this, HelpActivity.class);
         startActivity(intent);
     }
 

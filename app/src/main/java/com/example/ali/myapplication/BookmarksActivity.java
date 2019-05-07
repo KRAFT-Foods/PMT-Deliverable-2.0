@@ -45,6 +45,8 @@ public class BookmarksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (isEnable1){
                     ButtonStar1.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_off));
+                    CardView card2 = (CardView) findViewById(R.id.card2);
+                    card2.setVisibility(View.GONE);
                 }else{
                     ButtonStar1.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_on));
                 }
@@ -58,6 +60,8 @@ public class BookmarksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (isEnable2){
                     ButtonStar2.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_off));
+                    CardView card3 = (CardView) findViewById(R.id.card3);
+                    card3.setVisibility(View.GONE);
                 }else{
                     ButtonStar2.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_on));
                 }
@@ -71,6 +75,8 @@ public class BookmarksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (wisEnable){
                    wButtonStar.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_off));
+                    CardView wcard1 = (CardView) findViewById(R.id.wcard1);
+                    wcard1.setVisibility(View.GONE);
                 }else{
                     wButtonStar.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_on));
                 }
@@ -84,6 +90,8 @@ public class BookmarksActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (wisEnable1){
                     wButtonStar1.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_off));
+                    CardView wcard2 = (CardView) findViewById(R.id.wcard2);
+                    wcard2.setVisibility(View.GONE);
                 }else{
                     wButtonStar1.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),android.R.drawable.btn_star_big_on));
                 }

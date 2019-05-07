@@ -10,7 +10,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="FormalFits"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -23,11 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MensActivity" />
+        <activity
+            android:name=".MensActivity"
+            android:label="Gentlemen" />
         <activity android:name=".DiscountsActivity" />
-        <activity android:name=".BookmarksActivity" />
-        <activity android:name=".WomensActivity" />
-        <activity android:name=".MenuActivity"></activity>
+        <activity
+            android:name=".BookmarksActivity"
+            android:label="Bookmarks" />
+        <activity
+            android:name=".WomensActivity"
+            android:label="Ladies" />
+        <activity android:name=".MenuActivity" />
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
@@ -36,6 +42,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ali.myapplication.LoginActivity" />
         </activity>
+        <activity android:name=".HelpActivity"
+            android:label="Help"></activity>
     </application>
 
 </manifest>
