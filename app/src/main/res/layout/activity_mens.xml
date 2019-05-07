@@ -55,6 +55,34 @@
                         android:background="#00ffffff"
                         android:src="@android:drawable/btn_star" />
 
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Black" />
+
+                    <TextView
+                        android:id="@+id/linktext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/derbylink" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button"
+                        android:layout_alignStart="@+id/textView"
+                        android:text="Discount code: DERBY10" />
+
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -90,6 +118,44 @@
                         android:text="Oxford Shoes"
                         android:textSize="18sp" />
 
+                    <ImageButton
+                        android:id="@+id/favorite_button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="#00ffffff"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView3"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Black" />
+
+                    <TextView
+                        android:id="@+id/linktext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView3"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/oxfordlink" />
+
+                    <TextView
+                        android:id="@+id/textView9322"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button1"
+                        android:layout_alignStart="@+id/textView3"
+                        android:text="Discount code: OXFORD10" />
 
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
@@ -126,7 +192,44 @@
                         android:textSize="18sp"
                         android:text="Monk Shoes"/>
 
+                    <ImageButton
+                        android:id="@+id/favorite_button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="#00ffffff"
+                        android:src="@android:drawable/btn_star" />
 
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView4"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Brown/Black" />
+
+                    <TextView
+                        android:id="@+id/linktext3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView4"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/monklink" />
+
+                    <TextView
+                        android:id="@+id/textView9232"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button2"
+                        android:layout_alignStart="@+id/textView4"
+                        android:text="Discount code: MONK10" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -162,6 +265,44 @@
                     android:layout_marginTop="12dp"
                     android:textSize="18sp"/>
 
+                    <ImageButton
+                        android:id="@+id/favorite_button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="#00ffffff"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView5"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Brown" />
+
+                    <TextView
+                        android:id="@+id/linktext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView5"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/loaferlink" />
+
+                    <TextView
+                        android:id="@+id/textView9323"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button3"
+                        android:layout_alignStart="@+id/textView5"
+                        android:text="Discount code: LOAFER10" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -199,7 +340,44 @@
                     android:layout_marginTop="12dp"
                     android:textSize="18sp"/>
 
+                    <ImageButton
+                        android:id="@+id/favorite_button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="#00ffffff"
+                        android:src="@android:drawable/btn_star" />
 
+                    <TextView
+                        android:id="@+id/textView1024"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView6"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Brown" />
+
+                    <TextView
+                        android:id="@+id/linktext5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView6"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/broguelink" />
+
+                    <TextView
+                        android:id="@+id/textView92332"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button4"
+                        android:layout_alignStart="@+id/textView6"
+                        android:text="Discount code: BROGUE10" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
@@ -234,6 +412,44 @@
                     android:layout_marginTop="12dp"
                     android:textSize="18sp"/>
 
+                    <ImageButton
+                        android:id="@+id/favorite_button5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="11dp"
+                        android:layout_marginEnd="11dp"
+                        android:background="#00ffffff"
+                        android:src="@android:drawable/btn_star" />
+
+                    <TextView
+                        android:id="@+id/textView3232"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView2"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="Brown" />
+
+                    <TextView
+                        android:id="@+id/linktext6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView2"
+                        android:layout_marginTop="75dp"
+                        android:layout_marginEnd="70dp"
+                        android:text="@string/blucherlink" />
+
+                    <TextView
+                        android:id="@+id/textView2229"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/favorite_button5"
+                        android:layout_alignStart="@+id/textView2"
+                        android:text="Discount code: BLUCHER10" />
 
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
